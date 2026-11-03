@@ -1,4 +1,4 @@
- const bold=document.querySelectAll("strong")
+ const bold=document.querySelectAll('strong')
 function highlight() {
 	bold.forEach((word)=>{
     word.style.color="green"
